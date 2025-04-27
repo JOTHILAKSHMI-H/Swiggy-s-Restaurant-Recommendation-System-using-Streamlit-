@@ -29,39 +29,38 @@ The dataset is provided as a CSV file with the following columns:
 Categorical Features: name, city, cuisine
 
 Numerical Features: rating, rating_count, cost
-
 1. Data Understanding and Cleaning
-Duplicate Removal: Identified and dropped duplicate rows.
+ Duplicate Removal: Identified and dropped duplicate rows.
 
 Handling Missing Values: Imputed or dropped rows with missing values.
 
 Data Saving: Saved the cleaned data to a new CSV file (cleaned_data.csv).
 
 2. Data Preprocessing
-Encoding: Applied One-Hot Encoding to categorical features (name, city, cuisine).
+ Encoding: Applied One-Hot Encoding to categorical features (name, city, cuisine).
 
-Model Saving: Saved the encoder as a Pickle file (encoder.pkl).
+ Model Saving: Saved the encoder as a Pickle file (encoder.pkl).
 
-Numerical Data: Ensured all features are numerical after encoding.
+ Numerical Data: Ensured all features are numerical after encoding.
 
-Data Saving: Created a preprocessed dataset (encoded_data.csv).
+ Data Saving: Created a preprocessed dataset (encoded_data.csv).
 
-Index Matching: Ensured the indices of cleaned_data.csv and encoded_data.csv match.
+ Index Matching: Ensured the indices of cleaned_data.csv and encoded_data.csv match.
 
 3. Recommendation Methodology
-Clustering/Similarity:
+ Clustering/Similarity:
 
-Used K-Means Clustering or Cosine Similarity to find similar restaurants based on user input.
+ Used K-Means Clustering or Cosine Similarity to find similar restaurants based on user input.
+ 
+ Computations were performed on the encoded dataset.
 
-Computations were performed on the encoded dataset.
+ Result Mapping:
 
-Result Mapping:
-
-Mapped the recommendation results back to the non-encoded dataset (cleaned_data.csv) for user-friendly display.
+ Mapped the recommendation results back to the non-encoded dataset (cleaned_data.csv) for user-friendly display.
 
 4. Streamlit Application
-User Input: Accepted user preferences like city, cuisine, rating, price, etc.
+ User Input: Accepted user preferences like city, cuisine, rating, price, etc.
 
-Recommendation Engine: Processed user input, queried the encoded dataset, and generated recommendations.
+ Recommendation: Processed user input, queried the encoded dataset, and generated recommendations.
 
-Output: Displayed recommended restaurants using data from cleaned_data.csv in an easy-to-read
+ Output: Displayed recommended restaurants using data from cleaned_data.csv in an easy-to-read
