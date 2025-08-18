@@ -38,27 +38,27 @@ The project follows a structured workflow to ensure a robust and functional reco
 
 1. Data Understanding and Cleaning:
 
-  - The raw data is loaded from a CSV file.
+    - The raw data is loaded from a CSV file.
 
-  - Duplicates and missing values are handled to create a clean dataset.
+    - Duplicates and missing values are handled to create a clean dataset.
 
 2. Data Preprocessing:
 
-  - Categorical features like name, city, and cuisine are converted into a numerical format using One-Hot Encoding.
+     - Categorical features like name, city, and cuisine are converted into a numerical format using One-Hot Encoding.
 
-  - The encoded data is saved for use in the recommendation algorithm.
+     - The encoded data is saved for use in the recommendation algorithm.
 
 3. Recommendation Methodology:
 
-   - The core of the system uses a clustering or similarity algorithm to find restaurants that are similar to the user's input.
+    - The core of the system uses a clustering or similarity algorithm to find restaurants that are similar to the user's input.
 
-   - The results are mapped back to the original, non-encoded data for easy display.
+    - The results are mapped back to the original, non-encoded data for easy display.
 
 4. Streamlit Web Application:
 
-   - The Streamlit app takes user input for city, cuisine, rating, and cost.
+    - The Streamlit app takes user input for city, cuisine, rating, and cost.
 
-   - It processes this input, runs the recommendation logic, and displays the recommended restaurants.
+    - It processes this input, runs the recommendation logic, and displays the recommended restaurants.
 
 #  How to Run the App
 Follow these simple steps to get the app running on your local machine.
