@@ -66,6 +66,7 @@ Follow these simple steps to get the app running on your local machine.
 1. Clone the Repository:
 
 git clone https://github.com/Swiggy-s-Restaurant-Recommendation-System-using-Streamlit.git
+
 cd Swiggy-s-Restaurant-Recommendation-System-using-Streamlit
 
 2. Install Dependencies:
@@ -73,6 +74,7 @@ cd Swiggy-s-Restaurant-Recommendation-System-using-Streamlit
 Make sure you have Python installed.
 
 Install the required libraries from requirements.txt.
+
 pip install -r requirements.txt
 
 3. Run the Streamlit App:
@@ -80,5 +82,6 @@ pip install -r requirements.txt
 From the project directory, execute the following command:
 
 streamlit run swiggy.py
+
 The application will automatically open in your web browser.
 
